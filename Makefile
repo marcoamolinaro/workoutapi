@@ -5,4 +5,4 @@ create-migrations:
 	python -m alembic revision --autogenerate -m 'init_db'
 
 run-migrations:
-	python alembic upgrade head
+	python -m alembic upgrade head
